@@ -191,7 +191,9 @@
           "githubUrl": "git://github.com/dimsemenov/Photoswipe.git",
           "source": "build_file:package.json"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/4ce5588f86f48c7fd16db770a6e68d475babdb0a/chunk-001.nq.gz",
+      "dep": "dep/4ce5588f86f48c7fd16db770a6e68d475babdb0a.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
