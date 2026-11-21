@@ -1,0 +1,11 @@
+{
+  "org": "timmywil",
+  "repo": "grunt-npmcopy",
+  "versions": [
+    {
+      "commit": "4ce5588f86f48c7fd16db770a6e68d475babdb0a",
+      "tag": "0.2.0",
+      "parsed_at": "2026-11-21T22:51:24.480089+00:00"
+    }
+  ]
+}
