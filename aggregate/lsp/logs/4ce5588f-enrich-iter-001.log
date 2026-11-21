@@ -1,0 +1,14 @@
+[2026-11-21T22:49:23Z] === ENRICH ITERATION 1 START | repo=timmywil/grunt-npmcopy sha=4ce5588f ===
+[2026-11-21T22:49:23Z] [iter=1] PHASE START: enrich repo=timmywil/grunt-npmcopy sha=4ce5588f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4ce5588f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4ce5588f86f48c7fd16db770a6e68d475babdb0a.nq.gz
+[2026-11-21T22:49:36Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-21T22:49:36Z] [iter=1] AST store loaded triples=13124 load_secs=0 mem_mb=101 MB
+[2026-11-21T22:49:36Z] [iter=1] Step 2: Finding LSP targets mem_mb=101 MB
+[2026-11-21T22:49:36Z] [iter=1] LSP targets found call_sites=132 imports=0 extends=0 implements=0 secs=0
+[2026-11-21T22:49:36Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=101 MB
+[2026-11-21T22:49:36Z] [iter=1] Position index built positions=941 nodes_with_types=1085 secs=0 mem_mb=101 MB
+[2026-11-21T22:49:36Z] [iter=1] Step 3: Starting LSP resolution mem_mb=101 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T22:49:36Z] [iter=1] Resolving target type target_type=call_site count=132
+[2026-11-21T22:49:37Z] [iter=1] Target type resolved target_type=call_site resolved=20 errors=0 secs=2 mem_mb=101 MB
+[2026-11-21T22:49:39Z] [iter=1] Step 5: Writing final enrichment file triples=917
+[2026-11-21T22:49:39Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4ce5588f86f48c7fd16db770a6e68d475babdb0a.nq.gz size_kb=11
+[2026-11-21T22:49:39Z] [iter=1] PHASE END: enrich elapsed_s=15 elapsed_min=0.3 total_triples=917
